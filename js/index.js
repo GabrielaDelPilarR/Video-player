@@ -25,13 +25,13 @@ function handlepause() {
 
 $backward.addEventListener('click', handleBackward)
 function handleBackward() {
-  $video.currenTime = $video.currenTime - 10
-  console.log('para atras 10 segundos' , $video.currenTime)
+  $video.currentTime = $video.currentTime - 10
+  console.log('para atras 10 segundos' , $video.currentTime)
 }
 
 $forward.addEventListener('click', handleforward)
 function handleforward() {
-  $video.currenTime = $video.currenTime + 10
-  console.log('para adelante 10 segundos' , $video.currenTime)
+  $video.currentTime = $video.currentTime + 10
+  console.log('para adelante 10 segundos' , $video.currentTime)
 }
 
